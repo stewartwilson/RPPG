@@ -315,14 +315,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 566646118}
-  m_LocalRotation: {x: 0, y: -0, z: 0.9848078, w: -0.17364809}
-  m_LocalPosition: {x: 4, y: -3.5, z: 0}
+  m_LocalRotation: {x: 0, y: -0, z: 0.9659259, w: -0.25881898}
+  m_LocalPosition: {x: 4, y: -3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 386474405}
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 200}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 210}
 --- !u!1 &915412802
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,8 +464,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftFlipper: {fileID: 1902605419}
   rightFlipper: {fileID: 566646118}
-  flipSpeed: 0
-  flipRotation: 20
+  flipDelay: 1
+  flipSpeed: 4
+  flipRotation: 40
+  flipDiff: 0.1
+  leftFlipping: 0
+  rightFlipping: 0
+  leftStartRotation: 0
+  rightStartRotation: 0
+  leftRotationTarget: 0
+  rightRotationTarget: 0
 --- !u!4 &1238314196
 Transform:
   m_ObjectHideFlags: 0
@@ -679,11 +687,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1902605419}
-  m_LocalRotation: {x: 0, y: 0, z: -0.17364825, w: 0.9848078}
-  m_LocalPosition: {x: -4, y: -3.5, z: 0}
+  m_LocalRotation: {x: 0, y: -0, z: 0.25881916, w: -0.9659258}
+  m_LocalPosition: {x: -4, y: -3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1618902142}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -20}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 330}
