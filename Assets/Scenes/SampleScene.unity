@@ -429,7 +429,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 915412802}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.88, y: -0.07, z: 0}
+  m_LocalPosition: {x: 1.88, y: 3.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -465,15 +465,10 @@ MonoBehaviour:
   leftFlipper: {fileID: 1902605419}
   rightFlipper: {fileID: 566646118}
   flipDelay: 1
+  unflipDelay: 1
   flipSpeed: 4
   flipRotation: 40
   flipDiff: 0.1
-  leftFlipping: 0
-  rightFlipping: 0
-  leftStartRotation: 0
-  rightStartRotation: 0
-  leftRotationTarget: 0
-  rightRotationTarget: 0
 --- !u!4 &1238314196
 Transform:
   m_ObjectHideFlags: 0
